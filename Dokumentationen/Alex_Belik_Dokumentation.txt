@@ -1,0 +1,23 @@
+Password Manager Projekt - Arbeitsjournal
+
+
+22.9.2023
+- 15 min  -  Plan erstellt
+- 10 min  -  Aufgaben erteilt
+- 25 min  -  Projekt erstellt
+- 40 min  -  Git eingerichtet + Git Probleme gelösst
+
+
+20.10.2023
+- 20 min  -  Google(StackOverflow, Tutorials) angeschaut
+- 30 min  -  Program erstellt um Daten im JSON-Format speichern zu können
+- 40 min  -  Program verbessert, sodass die Daten gespeichert bleiben wenn Program geschlossen wird
+- 20 min  -  Getestet, ob Program funktioniert
+- 30 min  -  Git Problem gelösst
+
+
+
+21.10.2023
+- 50 min  -  Der Programm in die Projektdateien integriert
+- 80 min  -  Benutzerhandbuch geschreiben. (Einführung, Erste Schritte, Hauptfinktionen)
+- 40 min  -  Kontroliert, ob alles funktioniert

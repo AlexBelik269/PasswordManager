@@ -1,0 +1,61 @@
+22.09.23
+
+12:25 - 12:55 Plannung von Projekt  mit Nicola und Alex
+
+12:55 - 13:05 Plannung von GUI mit Nicola
+
+13:05 - 13:20 Recherche von Verschlüsselung
+
+13:20 - 30 Aussprobierung von Verschlüsselung anhand von Microsoft Dokumentation
+
+13:30 - 13:50Verfolgung eines Tutorial von AES
+
+13:50 -14:30Aussprobierung von Verschlüsselung (Habe kleine Versuche mit der Verschlüsselung gemacht und versucht Funktion zu machen )
+
+27.09.23
+
+
+
+Passwortgenerierungprogramm entwickelt
+
+12:25- 13: 10 Verschlüsselung Function fertig entwickelt (Mit entschlüsselung und habe es noch verbessert)
+
+13:10  - 13:40 Passwort authentizierung mit Hash function entwickelt (Habe noch recherchiert)
+
+13:25 - 14:20 Test program mit alle Funktionen erstellt
+
+
+14:20 - 14:30 Recherche von Passwort Generierung und habe einfache Generation gemacht
+
+20/10/23
+
+12:25- 13:40
+
+Passwort generierungs programm verbessert mit Mindestens einener Grosse und kleine Buchstabe, einer Symbol und einen Nummer
+13:40 -13:45 Branch mit Main gemergt.
+
+13:45 - 13:55 Problem mit merging gelöst.
+
+13:55 - 14: 17 Habe Nicola geholfen beim verlinkung mit GUI
+
+14:18 - 14:35  Habe an der Skript für Video gearbeitet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+Objektorientiert!
+
+Arbeitsrapport --> Genauer. Zeit, testen, welche genauen klassen, usw.
+
+Schnittstellen definieren für arbeit. (Only a tip)
+
+-UI
+-PW Gen.
+-Saving
+-Auth
+-Verschlüsselung
+
+
+
+Passwordmanager
+
+Persistent saving of password. Must be saved somewhere safe.
+
+On startup a master password. (Login system).
+
+titel / name
+
+Ort angabe. When adding password, can add dependant URL
+
+Must save user + pass.
+
+Safe password generator. (No conditions needed).
+
+Coding language must be given.
+
+Must have video about the manager, explaining how it works for the user.
+
+
+
+Add categorizing! Also for GUI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Efforts:
+
+12:25-12:55:
+
+Austausch über Verantwortlichkeiten und planung der Struktur des programms.
+
+12:55-13:05:
+
+Design des UI's, alle fenster.
+
+13:05-13:45: 
+
+Hauptmenu, Neuer User und Neuer Eintrag UI / Fenster erstellt. Durchaus Getestet.
+
+13:45-14:30:
+Returns, bzw. Events und Anzeige mithilfe Knöpfe erstellt (Wechseln zwischen fenster).
+
+
+Next day
+
+12:25-12:45:
+
+Einführung UML
+
+12:45-13:00:
+
+Recherche Listenerstellung für PW
+
+13:00-13:45:
+
+Erstellung Passwortliste, logik zum auflisten der PW, erstellung einfaches PW Objekt für die Testung Auflistung.
+
+13:45-14:00:
+
+Recherche JSON File einladung, ausladung.
+
+14:00-14:30:
+
+Probe mit JSON file, organisierung des UIBranch Branches, journaleintrag.
+
+14:30-14:35:
+
+Aufräumung.
+
+
+
+12:25-12:35:
+
+Einleitung
+
+12:30-13:00:
+
+Erstellung neues Fenster für Gruppenerstellung.
+
+13:00-13:10:
+
+Git merge request
+
+13:10-13:35:
+
+Merging von UI projekt mit main / organisierung.
+
+13:35-14:30:
+
+Verlinkungsversuche zwischen den Encryptionprojekte, Hashprojekte und Passwort generation.
+
+Diskutierung wegen den Projekten, gegenseitiger verstand und planung.
+
+Passwortgeneration wurde erfolgreich verlinkt.
+
+14:30-14:40:
+
+Studieren von JSON Projekt
+
+16:30-17:30:
+
+Adaptierung von JSON projekt zu Hauptprogramm, alles paralell gemacht. Erlernung von JSON basics (Abspeicherung, auslagerung, etc...). Bearbeitung Objekte von
+PasswordManager auf benötigte Stände (z.B. Löschung von "Name " in PasswordEntry), Um UserEntries und UserEntry erweitert, 
+Testversuche mit Textbox zu JSON file speicherung, testversuche mit speicherung passwörter auf JSON file, Testversuche Lesung von Dateien
+von schon gespeicherten Daten. Adaptieren von PasswordManager um pararell User.JSON und Password.JSON gleichzeitig zu laden. (Grundsätzlich
+durch fast allen Methoden verbreitet, z.B. um "string jsonDataUser = File.ReadAllText(filePathUser); string jsonDataPass = File.ReadAllText(filePathPass);"
+erweitert. Adaptierung vom PasswordManager, um automatisch Dateien zu erzeugen, entsprechend auch den Code kompatibel gemacht, um it einer leeren Datei
+umzugehen.
+
+17:30-19:30:
+
+Testversuche mit Verschlüsselungen, Verschlüsselungsprojekte analyziert für eigenes Verständniss. Recherche über AES verschlüsselung, byte arrays und Hashes.
+Das EncryptionClass erstellt und Zeilen gelöscht, die nicht nötig sind. Troubleshooting von den Encrypt und Decrypt Methoden. Evt. gelöst mit Hashing und
+statische Variablen. PasswordManager bei LoadData und SaveData modifiziert, um verschlüsselt zu speichern. Troubleshooting von ablesung vom String in der Datei.
+Recherche über effizientere Speicherungsarten von Arrays, problemesuchung von nicht kompatiblen konfigurationen mit den Variablen und konstantes adaptieren auf den
+jetzigen stand. Mit Base64 die Speicherung optimisiert.
+
+
+Korrekte verlinkung zum GUI erstellt, Knöpfe korrekt mit JSON Methoden und evt. Verschlüsselungsmethoden verlinkt. Alle restlichen Methoden, die sich unter
+MainWindow.xaml.cs befinden, fertiggestellt. ListOfPW.xaml fertiggestellt, so dass sie alles von der JSON aufruft.
+
+19:30-22:30:
+
+Implementierung Gruppierung, mithilfe Methodenbearbeitung generell bei PasswordManager (z.B. erweiterung bei PasswordEntry mit "Group"), Bedingte Auflistung bei ListOfPW.xaml und beim GUI mit Gruppe erweitert.
+Return Knopf implementiert, indem man wieder auf dem Homepage landet. Implementierung diversen Knöpfe, um dynamisch den Werkplatz zu optimiseren. Fehlermeldungen implementiert mit einem
+Label und generelle logische verschönerung bei AuxButtonSwitch. Löschung von Usern implementiert, mithilfe PasswordDeleteUser und Löschung von einzelnen Einträgen mithilfe PasswordDeletePassword.
+Verbessertes Login system implementiert, indem Entries eine zugewiesene Person haben, New Entry mit Reg. User und Reg. Password entsprechend erweitert, sowohl bei den anderen funktionen und Seiten.
+ListOfPW entsprechen auf User adaptiert. Fast alle nötigen Funktionen bei PasswordManager weiter modifiziert, damit es einen Error-message ausgibt. Entsprechend bei AuxButtonSwitch implementiert,
+damit man nicht zur Homepage direkt geht. Generell getestet, logisch verschönert bei if-else statements im ganzen Projekt, sowohl auch bei switch-case statements und bei anderen Methoden, worin man
+es optimisieren kann.
+
+22:30-22:15:
+
+Journal Geschrieben, pull requests und commit erstellt.
+
+
